@@ -12,10 +12,44 @@
   --white-color: #f7f7f7;
 }
 
-body{
-    background-color: var(--body-bg);
+body {
+  background-color: var(--body-bg);
 }
 
-.heading {
+.heading,
+p,
+li,
+span {
   color: var(--white-color);
+}
+
+.subheading {
+  font-weight: 600;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.max-width {
+  max-width: 1200px;
+}
+
+.main-wrapper {
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.rides ul {
+  display: flex;
+}
+
+.rides ul li {
+  margin: 0 1.5rem 0 0;
+  cursor: pointer;
+}
+
+.main-topbar {
+  display: flex;
+  justify-content: space-between;
 }
